@@ -23,13 +23,5 @@ class HomeController extends Controller
         $viewData["description"] = "Welcome To SoundWave";
         $viewData["author"] = "Creation of Moe Designs";
         return view("home.about")->with("viewData", $viewData);
-      // $title = "About Us - SoundWave";
-      // $subtitle = "About us";
-      // $description = "We are a dedicated to bring you all the best in audio tech";
-      // $author = "Creation of Moe Designs";
-      // return view("home.about")->with("title", $title)
-      // ->with("subtitle", $subtitle)
-      // ->with("description", $description)
-      // ->with("author",$author);
     }
 }
