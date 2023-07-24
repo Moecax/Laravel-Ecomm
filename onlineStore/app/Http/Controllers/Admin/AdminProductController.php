@@ -15,4 +15,13 @@ class AdminProductController extends Controller
         $viewData['products'] = Product::all();
         return view('admin.product.index')->with('viewData', $viewData);
     }
+    public function store(Request $request){
+      $request->validate([
+        'name' => "required|max:255",
+        'price' => "required",
+        'description' => "required",
+        'image' => 'required'
+
+      ])
+    }
 }
