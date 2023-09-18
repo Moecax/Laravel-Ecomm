@@ -69,22 +69,22 @@ class Product extends Model
     }
 
 //Created At
-    public function getCreatedAt()
-    {
-        return $this->attributes['createdAt'];
-    }
-    public function setCreatedAt($createdAt)
-    {
-        $this->attributes['createdAt'] = $createdAt;
-    }
+    // public function getCreatedAt()
+    // {
+    //     return $this->attributes['createdAt'];
+    // }
+    // public function setCreatedAt($createdAt)
+    // {
+    //     $this->attributes['createdAt'] = $createdAt;
+    // }
 
 //Updated At
-    public function getUpdatedAt()
-    {
-        return $this->attributes['updatedAt'];
-    }
-    public function setUpdatedAt($updatedAt)
-    {
-        $this->attributes['updatedAt'] = $updatedAt;
-    }
+    // public function getUpdatedAt()
+    // {
+    //     return $this->attributes['updatedAt'];
+    // }
+    // public function setUpdatedAt($updatedAt)
+    // {
+    //     $this->attributes['updatedAt'] = $updatedAt;
+    // }
 }

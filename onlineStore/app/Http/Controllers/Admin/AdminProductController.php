@@ -29,6 +29,8 @@ class AdminProductController extends Controller
         $newProduct->setDescription($request->input("description"));
         $newProduct->setPrice($request->input("price"));
         $newProduct->setImage("game.png");
-        $newProduct-> save();
+        $newProduct->save();
+
+        return back();
     }
 }
